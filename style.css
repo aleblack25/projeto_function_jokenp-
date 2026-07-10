@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://picsum.photos/1920/1080);   
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
