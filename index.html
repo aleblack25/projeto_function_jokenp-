@@ -1,32 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Projeto Functions</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="container">
-        
-        <h1>JokemPô</h1>
+      <h1>JokemPô</h1>
 
-        <div class="buttons">
-            <button id="rock"> &#x1F44A;&#x1F3FE; </button>
-            <button id="paper">&#x1F590;&#x1F3FE;</button>
-            <button id="scissors">&#x270C;&#x1F3FE;</button>
-        </div>
+      <div class="buttons">
+        <button id="rock" onclick="playHuman('rock')">
+          &#x1F44A;&#x1F3FE;
+        </button>
+        <button id="paper" onclick="playHuman('paper')">
+          &#x1F590;&#x1F3FE;
+        </button>
+        <button id="scissors"  onclick="playHuman('scissors')">
+          &#x270C;&#x1F3FE;
+        </button>
+      </div>
+      <p class="result"></p>
+      <p class="your-score">Sua Pontuação: <span id="human-score">0</span></p>
+      <p class="machine-score">Pontuação da Máquina: <span id="machine-score">0</span></p>
 
-
-        <p class="your-score">Sua Pontuação: <span>0</span></p>
-        <p class="machine-score">Pontuação da Máquina: <span>0</span></p>
+      
     </div>
+
     
-    <p class="result"></p>
 
-</body>
-
+    <script src="./script.js"></script>
+  </body>
 </html>
