@@ -33,7 +33,7 @@ Um jogo de **Pedra, Papel e Tesoura** desenvolvido com **HTML, CSS e JavaScript*
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/jokenpo.git
+git git clone https://github.com/aleblack25/projeto_function_jokenp-.git
 ```
 
 2. Abra a pasta do projeto.
